@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider Site</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <div class="paulista">🏆PAULISTÃO</div>
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Ingressos</a></li>
+                    <li><a href="">Jogos</a></li>
+                    <li><a href="">Fale conosco</a></li>
+                </ul>
+                <div class="menu--mobile">
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="control" onclick="back()">
+                    <img src="images/arrow-left.png" alt="">
+                </div>
+                <div class="control" onclick="next()">
+                    <img src="images/arrow-right.png" alt="">
+                </div>
+            </div>
+            <div class="slider--area">
+                <div class="slider--item" style="background-image: url('images/1.jpg')"></div>
+                <div class="slider--item" style="background-image: url('images/2.jpg')"></div>
+                <div class="slider--item" style="background-image: url('images/3.jpg')"></div>
+                <div class="slider--item" style="background-image: url('images/4.jpg')"></div>
+            </div>
+            <div class="slider-pointers">
+                <div class="pointer active" id="0" onclick="clickBalls(0)"></div>
+                <div class="pointer" id="1" onclick="clickBalls(1)"></div>
+                <div class="pointer" id="2" onclick="clickBalls(2)"></div>
+                <div class="pointer" id="3" onclick="clickBalls(3)"></div>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
