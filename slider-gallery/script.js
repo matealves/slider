@@ -1,12 +1,14 @@
 let balls = document.querySelector(".balls");
-let qtd = document.querySelectorAll(".slides .image");
-let atual = 0;
-let imagem = document.getElementById("atual");
+let qtd = document.querySelectorAll(".slider--area .slider--item");
+let area = document.querySelector(".slider--area");
+let slideWidth = document.querySelector(".slide");
 let back = document.getElementById("back");
 let next = document.getElementById("next");
+let atual = 0;
 let rolar = true;
 
-document.querySelector(".slides").style.width = `calc(1024px * ${qtd.length})`;
+//calcula a largura do slide * quantidade de imagens
+area.style.width = `calc(${slideWidth.clientWidth}px * ${qtd.length})`;
 
 for (let i = 0; i < qtd.length; i++) {
   let div = document.createElement("div");
@@ -43,9 +45,11 @@ function slide() {
   } else if (atual < 0) {
     atual = qtd.length - 1;
   }
+  //calcula a margin pela largura atual do slide(responsivo) * slide atual(index)
+  let margin = slideWidth.clientWidth * atual;
   document.querySelector(".imgAtual").classList.remove("imgAtual");
-  imagem.style.marginLeft = `${-1024 * atual}px`;
-  document.getElementById(atual).classList.add("imgAtual");
+  area.style.marginLeft = `-${margin}px`;
+  document.getElementById(atual).classList.add("imgAtual"); // busca id pela let atual
 }
 
 setInterval(() => {
@@ -55,4 +59,4 @@ setInterval(() => {
   } else {
     rolar = true;
   }
-}, 7000);
+}, 5000);
