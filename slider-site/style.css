@@ -99,7 +99,7 @@ nav li a:hover::after {
 .slider--area {
   height: 100%;
   display: flex;
-  transition: all ease 0.4s;
+  transition: all ease-in-out 1.5s;
 }
 
 .slider--item {
@@ -137,7 +137,6 @@ nav li a:hover::after {
 
 .control img:hover {
   transform: scale(1.1);
-  transition: all ease-in-out 0.3s;
 }
 
 .control img {
@@ -160,16 +159,20 @@ nav li a:hover::after {
   width: 15px;
   height: 15px;
   cursor: pointer;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   border-radius: 50%;
   margin-left: 5px;
   margin-right: 5px;
-  transition: all ease 0.7s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(5px 2px 8px rgba(0, 0, 0, 0.568));
 }
 
+.pointer:hover {
+  background-color: #fff;
+}
+
 .pointer.active {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 @media (max-width: 660px) {

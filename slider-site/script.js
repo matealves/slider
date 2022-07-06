@@ -1,6 +1,7 @@
 let totalSlides = document.querySelectorAll(".slider--item").length;
 let currentSlide = 0;
 let bolinha = document.getElementById("0");
+let rolar = true;
 
 document.querySelector(
   ".slider--area"
@@ -15,6 +16,7 @@ function back() {
   if (currentSlide < 0) {
     currentSlide = totalSlides - 1;
   }
+  rolar = false;
   update();
 }
 
@@ -23,6 +25,7 @@ function next() {
   if (currentSlide > totalSlides - 1) {
     currentSlide = 0;
   }
+  rolar = false;
   update();
 }
 
@@ -61,4 +64,10 @@ function update() {
   }
 }
 
-setInterval(next, 8000);
+setInterval(() => {
+  if (rolar) {
+    next();
+  } else {
+    rolar = true;
+  }
+}, 4000);
