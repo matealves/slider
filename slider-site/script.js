@@ -1,12 +1,15 @@
 let totalSlides = document.querySelectorAll(".slider--item").length;
 let currentSlide = 0;
 let bolinha = document.getElementById("0");
+let sliderWidth = document.querySelector(".slider").clientWidth;
 let rolar = true;
 
-document.querySelector(
-  ".slider--area"
-).style.width = `calc(100vw * ${totalSlides})`;
-
+//largura área do slide
+document.querySelector(".slider--area").style.width = `${
+  sliderWidth * totalSlides
+}px`;
+//largura e altura dos botões com base no tamanho do slide
+document.querySelector(".slider--controls").style.width = `${sliderWidth}px`;
 document.querySelector(".slider--controls").style.height = `${
   document.querySelector(".slider").clientHeight
 }px`;
