@@ -17,15 +17,16 @@
 
 <div id="visao">
 <h1>Visão geral</h1>
-Slier (Carrosel) de imagens <strong>utilizado em muitos sites da web</strong>, principalmente em e-commerce, onde é possível passar para a próxima imagem ou para a anterior, clicando nos <strong>botões de setas</strong> ou através das <strong>bolinhas</strong> que indicam qual imagem do slide está sendo exibida.
-No <strong>modelo 1</strong> foi criado no formato comum visto em sites, já no <strong>modelo 2</strong>, foi criado em formato de uma galeria de fotos. Também foi trabalhado <strong>responsividade</strong> em ambos os sliders. É possível testaros dois modelos clicando nos links abaixo.
+Slider (Carrosel) de imagens <strong>utilizado em muitos sites da web</strong>, principalmente em e-commerce, onde é possível passar para a próxima imagem ou para a anterior, clicando nos <strong>botões de setas</strong> ou através das <strong>bolinhas</strong> que indicam qual imagem do slide está sendo exibida.
+No <strong>modelo 1</strong> foi criado no formato home page com barra de menu, onde é comum de se encontrar, já no <strong>modelo 2</strong>, foi criado em formato de uma galeria de fotos.<br>
+Também foi trabalhado <strong>responsividade</strong> em ambos os sliders. É possível testar os dois modelos clicando nos links abaixo.
 </div>
 <br>
 <br>
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://matealves.github.io/slider/slider-site/index.html" target="_blank">Testar - slider site</a> 
+<a href="https://matealves.github.io/slider/slider-site/index.html" target="_blank">Testar - home Paulistão</a> 
 <br>
 <br>
 <a href="https://matealves.github.io/slider/slider-gallery/index.html" target="_blank">Testar - slider gallery</a> 
