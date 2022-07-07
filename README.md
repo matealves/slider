@@ -25,10 +25,10 @@ No <strong>modelo 1</strong> foi criado no formato comum visto em sites, já no 
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://htmlpreview.github.io/?https://github.com/matealves/slider/blob/main/slider-site/index.html" target="_blank">Testar - slider site</a> 
+<a href="https://matealves.github.io/slider/slider-site/index.html" target="_blank">Testar - slider site</a> 
 <br>
 <br>
-<a href="slider-gallery/index.html" target="_blank">Testar - slider gallery</a> 
+<a href="https://matealves.github.io/slider/slider-gallery/index.html" target="_blank">Testar - slider gallery</a> 
 </h1>
 
 <p align = "center">
