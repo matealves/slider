@@ -28,7 +28,7 @@ No <strong>modelo 1</strong> foi criado no formato comum visto em sites, já no 
 <a href="https://htmlpreview.github.io/?https://github.com/matealves/slider/blob/main/slider-site/index.html" target="_blank">Testar - slider site</a> 
 <br>
 <br>
-<a href="https://htmlpreview.github.io/?https://github.com/matealves/slider/blob/main/slider-gallery/index.html" target="_blank">Testar - slider gallery</a> 
+<a href="slider-gallery/index.html" target="_blank">Testar - slider gallery</a> 
 </h1>
 
 <p align = "center">
