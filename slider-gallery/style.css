@@ -29,7 +29,6 @@ body {
 
 .header img {
   display: none;
-  height: 100%;
 }
 
 .slide {
@@ -39,7 +38,7 @@ body {
   border-radius: 15px;
   transition: all 0.4s;
   /* position: relative; */
-  margin: 15px;
+  margin: 5px 30px;
 }
 
 .slides {
@@ -72,6 +71,7 @@ body {
   transition: all 0.4s;
   font-size: 1.7em;
   margin-top: -5px;
+  filter: drop-shadow(5px 2px 8px rgba(0, 0, 0, 0.568));
 }
 
 .btn:hover {
@@ -103,6 +103,7 @@ body {
   border-radius: 50%;
   margin-right: 15px;
   cursor: pointer;
+  filter: drop-shadow(5px 2px 8px rgba(0, 0, 0, 0.568));
 }
 
 .balls div:hover {
@@ -120,12 +121,12 @@ body {
   }
 
   .header {
-    height: 130px;
-    padding-top: 30px;
+    height: 120px;
+    padding-top: 5px;
   }
 
   .header img {
     display: block;
-    height: 100%;
+    height: 80%;
   }
 }
