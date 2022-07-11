@@ -22,19 +22,20 @@ No <strong>modelo 1</strong> foi criado no formato home page com barra de menu, 
 Também foi trabalhado <strong>responsividade</strong> em ambos os sliders. É possível testar os dois modelos clicando nos links abaixo.
 </div>
 <br>
-<br>
+
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://matealves.github.io/slider/slider-site/index.html" target="_blank">Testar - home Paulistão</a> 
+<a href="https://matealves.github.io/slider/slider-site/index.html" target="_blank">Testar - home page</a> 
 <br>
 <br>
-<a href="https://matealves.github.io/slider/slider-gallery/index.html" target="_blank">Testar - slider gallery</a> 
+<a href="https://matealves.github.io/slider/slider-gallery/index.html" target="_blank">Testar - gallery</a> 
 </h1>
 
-<p align = "center">
+<!-- <p align = "center">
   <img src ="img_readme.jpg" alt = "mockup" />
-</p>
+</p> -->
+<br>
 <br>
 
 <div id="leng">
